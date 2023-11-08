@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sign in </title>
-    <link rel="stylesheet" href="css/sign in.css">
+    <link rel="stylesheet" href="sign in.css">
     <script src = "./JS/app.js" defer ></script>
 </head>
 <body>
-    <form action = "/login" method = "post" id = "login-form">
+    <form action = "" method = "post" id = "login-form">
         <div id = "container">
             <section class = "left-section">
                 <h2> Sign in </h2>
@@ -20,12 +20,13 @@
                 <p class = "sign in">
                     <button class = "sign-in-btn"> sign in </button>
                 </p>
+                <p class = "forgot-password"><a href = "forgot password.html"> Forgot password? </a></p>
                 <p class = "sign-in-with"> or sign in with </p>
                 <div class = "sign-in-options">
                     <ul class = "links">
-                        <li><i class = "fab fa-twitter icons"></i></li>
-                        <li><i class = "fab fa-linkedin-in icons"></i></li>
-                        <li><i class = "fab fa-facebook-f icons"></i></li>
+                        <li><a href = "https://www.twitter.com/login"><i class = "fab fa-twitter icons"></i></a></li>
+                        <li><a href = "https://www.LinkedIn.com/login"><i class = "fab fa-linkedin-in icons"></i></a></li>
+                        <li><a href = "https://www.facebook.com/login"><i class = "fab fa-facebook-f icons"></i></a></li>
                     </ul>
                 </div>
             </section>
@@ -34,10 +35,10 @@
                 <p class = "text">
                     We are so happy to have you here. It's great to see you again. We hope you had a safe and enjoyable time away.
                 </p>
-                <button class = "sign-up-btn"> No account yet? Sign up </button>
+                <button class = "sign-up-btn"><a href = "sign up.html"> No account yet? Sign up </a></button>
             </section>
         </div>
-        <script src = "JS/all.js"></script>
+        <script src = "../JS/all.js"></script>
         <script src = "JS/app.js"></script>
     </form>
 </body>

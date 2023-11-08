@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title> Sign Up </title>
+        <link rel="stylesheet" href="sign up.css">
+    </head>
+    <body>
+        <div id = "container">
+            <form action = "/login" method = "post" id = "login-form">
+                <div class = "credentials">
+                    <h3> Create an account </h3>
+                    <p class = "first-name">
+                        <Label for = "name"> First name </Label>
+                        <input type = "text" name = "name" id = "name" placeholder = "Enter your first name" required autocomplete>
+                    </p>
+                    <p class = "second-name">
+                        <Label for = "name"> Second name </Label>
+                        <input type = "text" name = "name" id = "name" placeholder = "Enter your second name" required autocomplete>
+                    </p>
+                    <p class = "email">
+                        <Label for = "email"> Email </Label>
+                        <input type = "email" name = "email" id = "email" placeholder = "Enter your email" required autocomplete>
+                    </p>
+                    <p class = "password">
+                        <Label for = "pass"> Password </Label>
+                        <input type = "password" name = "pass" id = "pass" placeholder = "Enter password" required>
+                    </p>
+                    <p class = "confirm-password">
+                        <Label for = "pass"> Confirm password </Label>
+                        <input type = "password" name = "pass" id = "pass" placeholder = "confirm password" required>
+                    </p>
+                    <button type = "submit"> Submit </button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
